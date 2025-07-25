@@ -6,7 +6,7 @@ export function Home() {
       {/* Hero Section */}
       <div className="hero-section w-100">
         <div className="container">
-          <h1 className="display-4 fw-bold">Welcome to My Portfolio</h1>
+          <h1 className="display-4 fw-bold">Welcome to My Portfolio Rashif</h1>
           <p className="lead">I build modern web applications with cutting-edge technologies</p>
         </div>
       </div>
