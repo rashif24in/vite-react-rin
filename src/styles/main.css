@@ -1,0 +1,85 @@
+/* Base Styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Full Width Containers */
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+/* Navbar */
+.navbar {
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* Hero Section */
+.hero-section {
+  width: 100%;
+  padding: 6rem 0;
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  color: white;
+  text-align: center;
+}
+
+/* Cards */
+.card {
+  border: none;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Skills */
+.skill-badge {
+  font-size: 0.9rem;
+  margin: 0.25rem;
+}
+
+/* Modal */
+.modal-content {
+  border-radius: 10px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 4rem 0;
+  }
+  
+  .display-4 {
+    font-size: 2.5rem;
+  }
+}
+
+/* Footer Styles */
+footer {
+  background-color: #2c3e50;
+}
+
+footer a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #6e8efb !important;
+}
+
+.social-links a {
+  display: inline-block;
+  margin-right: 15px;
+  font-size: 1.2rem;
+}
+
+.social-links a:last-child {
+  margin-right: 0;
+}
