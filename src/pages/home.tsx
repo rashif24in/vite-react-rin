@@ -1,5 +1,7 @@
-import { Link } from 'react-router-dom'
 import { skills } from '../data/skills'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faDownload } from '@fortawesome/free-solid-svg-icons'
+
 
 export function Home() {
   return (
@@ -18,7 +20,7 @@ export function Home() {
                 Passionate about solving complex challenges and ready to excel as a Senior Developer or Tech Lead.
               </p>
               
-              <div className="hero-buttons">
+              <div className="hero-buttons mb-4">
                 <a
                   className="btn btn-primary btn-lg me-3"
                   href="https://www.canva.com/design/DAGe9OQVN1c/ZC1jUc74vudMZPRdpzDTAA/view?utm_content=DAGe9OQVN1c&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h0b9da34a92"
@@ -26,16 +28,15 @@ export function Home() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
+                  <FontAwesomeIcon icon={faDownload} className="me-2" />
                   Download CV
                 </a>
-                <Link to="/contact" className="btn btn-outline-primary btn-lg">
-                  Contact Me
-                </Link>
               </div>
+              
             </div>
           </div>
 
-          {/* Right Column - Image (Placeholder) */}
+          {/* Right Column - Image */}
           <div className="col-lg-6 text-center">
             <div className="hero-image">
               <img 
