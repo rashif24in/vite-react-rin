@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom'
 import { skills } from '../data/skills'
 
 export function Home() {
@@ -18,7 +17,7 @@ export function Home() {
                 Passionate about solving complex challenges and ready to excel as a Senior Developer or Tech Lead.
               </p>
               
-              <div className="hero-buttons">
+              <div className="hero-buttons mb-4">
                 <a
                   className="btn btn-primary btn-lg me-3"
                   href="https://www.canva.com/design/DAGe9OQVN1c/ZC1jUc74vudMZPRdpzDTAA/view?utm_content=DAGe9OQVN1c&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h0b9da34a92"
@@ -28,14 +27,50 @@ export function Home() {
                 >
                   Download CV
                 </a>
-                <Link to="/contact" className="btn btn-outline-primary btn-lg">
-                  Contact Me
-                </Link>
+              </div>
+
+              {/* Compact Contact Section */}
+              <div className="contact-section">
+                <h5 className="mb-3">Contact Me</h5>
+                <div className="d-flex flex-wrap gap-3">
+                  <a 
+                    href="mailto:rashifilmi12@gmail.com" 
+                    className="btn btn-outline-primary btn-sm"
+                  >
+                    <i className="fas fa-envelope me-2"></i>
+                    Email
+                  </a>
+                  <a 
+                    href="tel:+6282120042004" 
+                    className="btn btn-outline-primary btn-sm"
+                  >
+                    <i className="fas fa-phone me-2"></i>
+                    Phone
+                  </a>
+                  <a 
+                    href="https://linkedin.com/in/rashifilmi" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="btn btn-outline-primary btn-sm"
+                  >
+                    <i className="fab fa-linkedin me-2"></i>
+                    LinkedIn
+                  </a>
+                  <a 
+                    href="https://github.com/rashifilmi" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="btn btn-outline-dark btn-sm"
+                  >
+                    <i className="fab fa-github me-2"></i>
+                    GitHub
+                  </a>
+                </div>
               </div>
             </div>
           </div>
 
-          {/* Right Column - Image (Placeholder) */}
+          {/* Right Column - Image */}
           <div className="col-lg-6 text-center">
             <div className="hero-image">
               <img 
