@@ -7,18 +7,28 @@ export function About() {
           <h2 className="text-primary mb-3">Rashif Ilmi Nurzaman</h2>
           <h4 className="text-muted mb-4">Software Engineer</h4>
           <p className="lead mb-4">
-            Results-driven and collaborative Software Engineer with over 3 years of experience 
-            in backend web development, complemented by 9 months serving as a co-tech lead. 
-            Skilled in guiding teammates, resolving client concerns, 
-            and ensuring smooth project delivery while still staying hands-on 
-            with development. Proficient in .NET, SQL, and Agile methodologies,
-             with a proven track record of solving complex technical issues 
-             and delivering reliable, high-quality solutions. 
-             Known for being approachable, supportive, and dedicated to team success,
-              I am eager to contribute my technical expertise and leadership experience 
-              to a Senior Developer or Tech Lead role, where I can continue 
-              building impactful systems and fostering strong collaboration 
-              across teams and stakeholders.
+            <p>
+          I am a results-driven Software Engineer with over 3 years of experience 
+          in backend web development and around 9 months of experience acting as a co-tech lead.
+          My background combines strong technical execution with hands-on leadership,
+          guiding teammates, handling client discussions, and ensuring timely, 
+          high-quality project delivery.
+            </p>
+            <p>
+          Specializing in .NET, C#, and SQL, I have built and maintained scalable systems 
+          for enterprise clients while improving performance, reliability, and maintainability. 
+          I thrive in collaborative environments, often bridging the gap between technical teams 
+          and business stakeholders to align solutions with real-world needs.
+            </p>
+            <p>
+          Approachable and supportive by nature, I take pride in helping others grow 
+          and in creating an environment where teamwork drives results. I am now looking to contribute 
+          my technical expertise and leadership experience to a Senior Developer or Tech Lead role, 
+          continuing to build impactful systems and strengthen cross-team collaboration.
+            </p>
+
+
+          
           </p>
           
           <div className="mt-5">
