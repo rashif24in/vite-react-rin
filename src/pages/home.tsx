@@ -1,4 +1,7 @@
 import { skills } from '../data/skills'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faDownload } from '@fortawesome/free-solid-svg-icons'
+
 
 export function Home() {
   return (
@@ -25,48 +28,11 @@ export function Home() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
+                  <FontAwesomeIcon icon={faDownload} className="me-2" />
                   Download CV
                 </a>
               </div>
-
-              {/* Compact Contact Section */}
-              <div className="contact-section">
-                <h5 className="mb-3">Contact Me</h5>
-                <div className="d-flex flex-wrap gap-3">
-                  <a 
-                    href="mailto:rashifilmi12@gmail.com" 
-                    className="btn btn-outline-primary btn-sm"
-                  >
-                    <i className="fas fa-envelope me-2"></i>
-                    Email
-                  </a>
-                  <a 
-                    href="tel:+6282120042004" 
-                    className="btn btn-outline-primary btn-sm"
-                  >
-                    <i className="fas fa-phone me-2"></i>
-                    Phone
-                  </a>
-                  <a 
-                    href="https://linkedin.com/in/rashifilmi" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="btn btn-outline-primary btn-sm"
-                  >
-                    <i className="fab fa-linkedin me-2"></i>
-                    LinkedIn
-                  </a>
-                  <a 
-                    href="https://github.com/rashifilmi" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="btn btn-outline-dark btn-sm"
-                  >
-                    <i className="fab fa-github me-2"></i>
-                    GitHub
-                  </a>
-                </div>
-              </div>
+              
             </div>
           </div>
 
