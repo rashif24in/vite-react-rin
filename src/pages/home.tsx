@@ -1,7 +1,7 @@
 import { skills } from '../data/skills'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDownload } from '@fortawesome/free-solid-svg-icons'
-
+import { getYearExperience } from '../data/yearExperience'
 
 export function Home() {
   return (
@@ -16,7 +16,7 @@ export function Home() {
               <h3 className="text-muted mb-4">And I'm a <span className="text-primary">Software Engineer</span></h3>
               
               <p className="lead mb-4">
-                Experienced Software Engineer with 3+ years in backend development and leadership in .NET, SQL, and Agile. 
+                Experienced Software Engineer with {getYearExperience()} years in backend development and leadership in .NET, SQL, and Agile. 
                 Passionate about solving complex challenges and ready to excel as a Senior Developer or Tech Lead.
               </p>
               
