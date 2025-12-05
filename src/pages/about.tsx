@@ -1,3 +1,4 @@
+import { getYearExperience } from '../data/yearExperience'
 export function About() {
   return (
     <div className="container py-5">
@@ -8,7 +9,7 @@ export function About() {
           <h4 className="text-muted mb-4">Software Engineer</h4>
           <p className="lead mb-4">
             <p>
-          I am a results-driven Software Engineer with over 4 years of experience 
+          I am a results-driven Software Engineer with over {getYearExperience()} years of experience 
           in backend web development and around 9 months of experience acting as a co-tech lead.
           My background combines strong technical execution with hands-on leadership,
           guiding teammates, handling client discussions, and ensuring timely, 
