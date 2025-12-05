@@ -8,7 +8,7 @@ export function About() {
           <h4 className="text-muted mb-4">Software Engineer</h4>
           <p className="lead mb-4">
             <p>
-          I am a results-driven Software Engineer with over 3 years of experience 
+          I am a results-driven Software Engineer with over 4 years of experience 
           in backend web development and around 9 months of experience acting as a co-tech lead.
           My background combines strong technical execution with hands-on leadership,
           guiding teammates, handling client discussions, and ensuring timely, 
@@ -62,13 +62,12 @@ export function About() {
         </div>
         <div className="col-lg-6 text-center">
           <img 
-            src="/images/profile.jpg" 
+            src="/images/rashif-jotaro-part4.png" 
             alt="Rashif Ilmi Nurzaman" 
-            className="img-fluid rounded-circle shadow-lg" 
             style={{ 
-              maxWidth: '400px', 
-              border: '8px solid #6e8efb',
-              boxShadow: '0 10px 30px rgba(0,0,0,0.2)'
+              maxWidth: '500px', 
+              width: '100%', 
+              borderRadius: '10px'
             }}
           />
         </div>
@@ -124,7 +123,7 @@ export function About() {
                 <div className="card-body">
                   <h4 className="card-title text-info mb-2">Education</h4>
                   <h5 className="fw-bold">Bachelor's in Electrical Engineering</h5>
-                  <p className="text-muted mb-1">University</p>
+                  <p className="text-muted mb-1">Maranatha Christian University</p>
                   <small className="text-muted">2014 - 2019</small>
                 </div>
               </div>
