@@ -43,7 +43,7 @@ export function Navbar() {
     <nav className="navbar navbar-expand-lg navbar-light bg-white sticky-top">
       <div className="container">
         <Link className="navbar-brand fw-bold" to="/" onClick={closeNav}>
-          MyPortfolio
+          Rashif Ilmi N
         </Link>
         
         {/* Toggle Button with Custom Animation */}

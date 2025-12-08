@@ -38,7 +38,7 @@ export function About() {
                 <div className="card border-0 bg-light">
                   <div className="card-body text-center">
                     <h5 className="card-title text-primary">Experience</h5>
-                    <p className="card-text fw-bold">3+ Years</p>
+                    <p className="card-text fw-bold">{getYearExperience()} Years</p>
                   </div>
                 </div>
               </div>
